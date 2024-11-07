@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DOCUMENTOS\\PrograAvanzada\\SalasDeReuniones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|d:\\documentos\\prograavanzada\\salasdereuniones\\salasdereuniones\\views\\equipo\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\equipo\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|d:\\documentos\\prograavanzada\\salasdereuniones\\salasdereuniones\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|d:\\documentos\\prograavanzada\\salasdereuniones\\salasdereuniones\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Equipo\\Crear.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Equipo\\Crear.cshtml",
+              "ToolTip": "D:\\DOCUMENTOS\\PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Equipo\\Crear.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Equipo\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T01:53:02.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalaController.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\SalaController.cs",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Controllers\\SalaController.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\SalaController.cs",
+              "RelativeToolTip": "SalasDeReuniones\\Controllers\\SalaController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwE8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T22:53:11.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DOCUMENTOS\\PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T23:15:49.782Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<SalasDeReuniones.sala>
+@{
+    ViewBag.Title = "Listado de Salas";
+    ProyectoPAEntities context = new ProyectoPAEntities();
+}
+
+<h2>Listado de Salas</h2>
+
+<p>
+    @Html.ActionLink("Crear", "Crear", new { }, new { @class = "btn btn-primary" })
+</p>
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <th>Nombre de la Sala</th>
+            <th>Capacidad</th>
+            <th>Ubicacion</th>
+            <th>Hora inicial de Disponibilidad</th>
+            <th>Hora Final de Disponibilidad</th>
+            <th>Equipo Disponible</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lista in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => lista.nombre)</td>
+                <td>@Html.DisplayFor(modelItem => lista.capacidad)</td>
+                <td>@Html.DisplayFor(modelItem => lista.ubicacion)</td>
+                <td>@Html.DisplayFor(modelItem => lista.hora_inicio_dispo)</td>
+                <td>@Html.DisplayFor(modelItem => lista.hora_fin_dispo)</td>
+                <td>
+                    @foreach (var equipo in context.equipo_salas.Where(l => l.IdSala == lista.IdSala).Select(l => l.equipo.nombre_equipo))
+                    {
+                        <li>@equipo</li>
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Editar", new { id = lista.IdSala }, new { @class = "btn btn-secondary" }) |
+                    @Html.ActionLink("Eliminar", "Eliminar", new { id = lista.IdSala }, new { @class = "btn btn-danger" }) |
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

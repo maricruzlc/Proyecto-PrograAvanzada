@@ -1,0 +1,42 @@
+﻿@model SalasDeReuniones.sala
+@{
+    ViewBag.Title = "Editar Sala";
+}
+
+<h2>Editar Sala</h2>
+
+@using (Html.BeginForm())
+
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.nombre, "Nombre", htmlAttributes: new { @class = "form-control" })
+        @Html.EditorFor(model => model.nombre, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.capacidad, "Capacidad", htmlAttributes: new { @class = "control-label" })
+        @Html.EditorFor(model => model.capacidad, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.ubicacion, "Ubicacion", htmlAttributes: new { @class = "control-label" })
+        @Html.EditorFor(model => model.ubicacion, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.hora_inicio_dispo, "Hora inicial de Disponibilidad", htmlAttributes: new { @class = "control-label" })
+        @Html.EditorFor(model => model.hora_inicio_dispo, new { htmlAttributes = new { @class = "form-control", @type = "time" } })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.hora_fin_dispo, "Hora Final de Disponibilidad", htmlAttributes: new { @class = "control-label" })
+        @Html.EditorFor(model => model.hora_fin_dispo, new { htmlAttributes = new { @class = "form-control", @type = "time" } })
+    </div>
+    <div class="form-group">
+        @Html.Label("Equipo Disponible", "Equipo Disponible", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.ListBox("EquipoId", null, new { @class = "form-control", @multiple = "multiple" })
+            @Html.ValidationMessage("EquipoId", "", new { @class = "text-danger" })
+        </div>
+    </div>
+    @Html.HiddenFor(l => l.IdSala)
+    <div>
+        <input type="submit" value="Guardar" class="btn btn-primary" />
+    </div>
+}

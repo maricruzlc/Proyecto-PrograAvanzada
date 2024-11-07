@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ee9134eb22b24723a397c58f7d09e6fd" Name="Diagram1">
+        <EntityTypeShape EntityType="ProyectoPAModel.estadoSala" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProyectoPAModel.reserva" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProyectoPAModel.role" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProyectoPAModel.sala" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProyectoPAModel.usuario" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="ProyectoPAModel.FK__estadoSal__IdSal__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="ProyectoPAModel.FK__reservas__IdSala__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="ProyectoPAModel.FK__reservas__IdUsua__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="ProyectoPAModel.FK__usuarios__IdRol__5629CD9C" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ProyectoPAModel.equipo" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="ProyectoPAModel.equipo_salas" Width="1.5" PointX="9.625" PointY="3.625" />
+        <AssociationConnector Association="ProyectoPAModel.FK__equipo_sa__Id_Eq__6FE99F9F" />
+        <AssociationConnector Association="ProyectoPAModel.FK__equipo_sa__IdSal__70DDC3D8" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
