@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Envío de Token";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Mensaje"]
+    </div>
+}
+else if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}

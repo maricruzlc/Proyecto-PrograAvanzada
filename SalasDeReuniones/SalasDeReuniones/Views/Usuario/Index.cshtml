@@ -1,0 +1,59 @@
+﻿@model IEnumerable<SalasDeReuniones.usuario>
+
+@{
+    ViewBag.Title = "Lista de Usuarios";
+}
+
+<h2>View</h2>
+
+<p>
+    @Html.ActionLink("Create New", "crear")
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Usuario</th>
+            <th>Contraseña</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Correo</th>
+            <th>Fecha de Creación</th>
+            <th>Rol</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Usuario1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.contrasena)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellidos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Correo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaCreacion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.role.Nombre)
+                </td>
+                @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.IdUsuario }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.IdUsuario }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.IdUsuario })
+                </td>*@
+            </tr>
+        }
+    </tbody>
+
+
+</table>

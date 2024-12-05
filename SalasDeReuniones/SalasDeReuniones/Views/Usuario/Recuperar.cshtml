@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Olvidé mi Contraseña";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("SendToken", "Usuario", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email" name="email" required />
+    </div>
+
+    <button type="submit">Enviar Enlace para Restablecer</button>
+
+
+}
+
