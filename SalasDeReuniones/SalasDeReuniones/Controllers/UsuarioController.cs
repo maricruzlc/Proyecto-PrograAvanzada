@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
+using System.Security.Principal;
 using System.Text;
 using System.Web;
 using System.Web.Mvc;
@@ -29,6 +31,8 @@ namespace SalasDeReuniones.Controllers
             return View();
         }
 
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Crear(usuario newUser)
@@ -52,7 +56,7 @@ namespace SalasDeReuniones.Controllers
 
                 // A la contraseña en el usuario
                 var hasher = new PasswordHasher<usuario>();
-                newUser.SetPassword(newUser.contrasena); // Establece la contraseña hasheada
+                newUser.contrasena = hasher.HashPassword(newUser, newUser.contrasena);
 
 
 
@@ -76,38 +80,69 @@ namespace SalasDeReuniones.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Login(String Usuario1, String contrasena)
+        public ActionResult Login(string Usuario1, string contrasena)
         {
-            //Verifica si el usuario existe en la base de datos
+            // Verifica si el usuario existe en la base de datos
             var usuario = context.usuarios.FirstOrDefault(x => x.Usuario1 == Usuario1);
 
             if (usuario != null)
             {
                 var hasher = new PasswordHasher<usuario>();
-                //Valida la contraseña usando el hasher
+                // Valida la contraseña usando el hasher
                 if (hasher.VerifyHashedPassword(usuario, usuario.contrasena, contrasena) == PasswordVerificationResult.Success)
                 {
-                    FormsAuthentication.SetAuthCookie(usuario.Usuario1, false);
+                    // Crea el ticket de autenticación
+                    var ticket = new FormsAuthenticationTicket(
+                        1,
+                        usuario.Usuario1,
+                        DateTime.Now,
+                        DateTime.Now.AddMinutes(30),
+                        false,
+                        usuario.role.Nombre // Aquí va el rol del usuario
+                    );
 
+                    string encryptedTicket = FormsAuthentication.Encrypt(ticket);
+                    var cookie = new HttpCookie(FormsAuthentication.FormsCookieName, encryptedTicket)
+                    {
+                        HttpOnly = true
+                    };
+                    Response.Cookies.Add(cookie);
+
+                    // Almacena datos de sesión adicionales
                     Session["UsuarioId"] = usuario.IdUsuario;
                     Session["UsuarioNombre"] = usuario.Nombre;
                     Session["UsuarioRol"] = usuario.role.Nombre;
+
+                    // Configura la identidad del usuario y sus roles
+                    var identity = new GenericIdentity(usuario.Usuario1);
+                    var roles = new[] { "Administrador" }; // Forzado para pruebas
+                    var principal = new GenericPrincipal(identity, roles);
+                    HttpContext.User = principal;
+
+
+                    // Asigna el usuario principal al contexto actual
+                    HttpContext.User = principal;
+
+                    // Agrega depuración para verificar el rol
+                    Debug.WriteLine("Usuario autenticado: " + usuario.Usuario1);
+                    Debug.WriteLine("Rol asignado: " + string.Join(", ", roles));
+                    Debug.WriteLine("Es administrador: " + HttpContext.User.IsInRole("Administrador"));
+
                     return RedirectToAction("Index", "Home");
                 }
                 else
                 {
-                    ModelState.AddModelError("Contraseña", "La contraseña es incorrecta");
+                    ModelState.AddModelError("Contrasena", "La contraseña es incorrecta");
                 }
             }
             else
             {
-                ModelState.AddModelError("Usaurio1", "El nombre no existe");
-
+                ModelState.AddModelError("Usuario1", "El usuario no existe");
             }
+
             return View();
-
-
         }
+
 
         private string GenerarToken(string email)
         {

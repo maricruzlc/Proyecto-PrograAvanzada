@@ -75,7 +75,7 @@
           <Property Name="Correo" Type="varchar" MaxLength="100" />
           <Property Name="FechaCreacion" Type="date" />
         </EntityType>
-        <Association Name="FK__equipo_sa__Id_Eq__6FE99F9F">
+        <Association Name="FK__equipo_sa__Id_Eq__440B1D61">
           <End Role="equipo" Type="Self.equipo" Multiplicity="0..1" />
           <End Role="equipo_salas" Type="Self.equipo_salas" Multiplicity="*" />
           <ReferentialConstraint>
@@ -87,7 +87,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__equipo_sa__IdSal__70DDC3D8">
+        <Association Name="FK__equipo_sa__IdSal__44FF419A">
           <End Role="salas" Type="Self.salas" Multiplicity="0..1" />
           <End Role="equipo_salas" Type="Self.equipo_salas" Multiplicity="*" />
           <ReferentialConstraint>
@@ -99,7 +99,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__estadoSal__IdSal__6477ECF3">
+        <Association Name="FK__estadoSal__IdSal__45F365D3">
           <End Role="salas" Type="Self.salas" Multiplicity="0..1" />
           <End Role="estadoSala" Type="Self.estadoSala" Multiplicity="*" />
           <ReferentialConstraint>
@@ -111,7 +111,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__reservas__IdSala__68487DD7">
+        <Association Name="FK__reservas__IdSala__46E78A0C">
           <End Role="salas" Type="Self.salas" Multiplicity="0..1" />
           <End Role="reservas" Type="Self.reservas" Multiplicity="*" />
           <ReferentialConstraint>
@@ -123,7 +123,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__reservas__IdUsua__6754599E">
+        <Association Name="FK__reservas__IdUsua__47DBAE45">
           <End Role="usuarios" Type="Self.usuarios" Multiplicity="0..1" />
           <End Role="reservas" Type="Self.reservas" Multiplicity="*" />
           <ReferentialConstraint>
@@ -135,7 +135,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__usuarios__IdRol__5629CD9C">
+        <Association Name="FK__usuarios__IdRol__48CFD27E">
           <End Role="roles" Type="Self.roles" Multiplicity="0..1" />
           <End Role="usuarios" Type="Self.usuarios" Multiplicity="*" />
           <ReferentialConstraint>
@@ -155,27 +155,27 @@
           <EntitySet Name="roles" EntityType="Self.roles" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="salas" EntityType="Self.salas" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="usuarios" EntityType="Self.usuarios" Schema="dbo" store:Type="Tables" />
-          <AssociationSet Name="FK__equipo_sa__Id_Eq__6FE99F9F" Association="Self.FK__equipo_sa__Id_Eq__6FE99F9F">
+          <AssociationSet Name="FK__equipo_sa__Id_Eq__440B1D61" Association="Self.FK__equipo_sa__Id_Eq__440B1D61">
             <End Role="equipo" EntitySet="equipo" />
             <End Role="equipo_salas" EntitySet="equipo_salas" />
           </AssociationSet>
-          <AssociationSet Name="FK__equipo_sa__IdSal__70DDC3D8" Association="Self.FK__equipo_sa__IdSal__70DDC3D8">
+          <AssociationSet Name="FK__equipo_sa__IdSal__44FF419A" Association="Self.FK__equipo_sa__IdSal__44FF419A">
             <End Role="salas" EntitySet="salas" />
             <End Role="equipo_salas" EntitySet="equipo_salas" />
           </AssociationSet>
-          <AssociationSet Name="FK__estadoSal__IdSal__6477ECF3" Association="Self.FK__estadoSal__IdSal__6477ECF3">
+          <AssociationSet Name="FK__estadoSal__IdSal__45F365D3" Association="Self.FK__estadoSal__IdSal__45F365D3">
             <End Role="salas" EntitySet="salas" />
             <End Role="estadoSala" EntitySet="estadoSala" />
           </AssociationSet>
-          <AssociationSet Name="FK__reservas__IdSala__68487DD7" Association="Self.FK__reservas__IdSala__68487DD7">
+          <AssociationSet Name="FK__reservas__IdSala__46E78A0C" Association="Self.FK__reservas__IdSala__46E78A0C">
             <End Role="salas" EntitySet="salas" />
             <End Role="reservas" EntitySet="reservas" />
           </AssociationSet>
-          <AssociationSet Name="FK__reservas__IdUsua__6754599E" Association="Self.FK__reservas__IdUsua__6754599E">
+          <AssociationSet Name="FK__reservas__IdUsua__47DBAE45" Association="Self.FK__reservas__IdUsua__47DBAE45">
             <End Role="usuarios" EntitySet="usuarios" />
             <End Role="reservas" EntitySet="reservas" />
           </AssociationSet>
-          <AssociationSet Name="FK__usuarios__IdRol__5629CD9C" Association="Self.FK__usuarios__IdRol__5629CD9C">
+          <AssociationSet Name="FK__usuarios__IdRol__48CFD27E" Association="Self.FK__usuarios__IdRol__48CFD27E">
             <End Role="roles" EntitySet="roles" />
             <End Role="usuarios" EntitySet="usuarios" />
           </AssociationSet>

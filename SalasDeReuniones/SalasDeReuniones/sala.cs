@@ -36,6 +36,5 @@ namespace SalasDeReuniones
         public virtual ICollection<reserva> reservas { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<equipo_salas> equipo_salas1 { get; set; }
-        public List<string> Equipos { get; set; }
     }
 }
