@@ -7,24 +7,12 @@
       "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\usuario\\sendtoken.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\usuario\\sendtoken.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\usuario\\recuperar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\usuario\\recuperar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,80 +62,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SendToken.cshtml",
-              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\SendToken.cshtml",
-              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Usuario\\SendToken.cshtml",
-              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\SendToken.cshtml",
-              "RelativeToolTip": "SalasDeReuniones\\Views\\Usuario\\SendToken.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T02:09:34.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Recuperar.cshtml",
-              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Recuperar.cshtml",
-              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Usuario\\Recuperar.cshtml",
-              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Recuperar.cshtml",
-              "RelativeToolTip": "SalasDeReuniones\\Views\\Usuario\\Recuperar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T00:41:42.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Web.config",
-              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Web.config",
-              "RelativeDocumentMoniker": "SalasDeReuniones\\Web.config",
-              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Web.config",
-              "RelativeToolTip": "SalasDeReuniones\\Web.config",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-05T00:28:41.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "SalasDeReuniones\\Controllers\\HomeController.cs",
-              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "SalasDeReuniones\\Controllers\\HomeController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SalasDeReuniones\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:27:58.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Login.cshtml",
-              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Usuario\\Login.cshtml",
-              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Login.cshtml",
-              "RelativeToolTip": "SalasDeReuniones\\Views\\Usuario\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T00:12:21.401Z",
+              "WhenOpened": "2024-12-10T22:44:35.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Web.config",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Web.config",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Web.config",
+              "RelativeToolTip": "SalasDeReuniones\\Web.config",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-10T22:42:10.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "SalasDeReuniones\\Controllers\\UsuarioController.cs",
-              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\UsuarioController.cs*",
-              "RelativeToolTip": "SalasDeReuniones\\Controllers\\UsuarioController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "SalasDeReuniones\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:12:12.736Z",
+              "WhenOpened": "2024-12-10T22:38:05.533Z",
               "EditorCaption": ""
             }
           ]

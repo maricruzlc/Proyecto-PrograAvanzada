@@ -81,6 +81,8 @@ D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDe
 D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeR.0ADD80A9.Up2Date
 D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.dll
 D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.pdb
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.AssemblyReference.cache
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.CoreCompileInputs.cache
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.dll.config
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.pdb
@@ -168,9 +170,14 @@ F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Primitives.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.WebEncoders.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Net.Http.Headers.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.Cookies.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Web.Infrastructure.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Win32.Registry.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Newtonsoft.Json.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Owin.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Sprache.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Buffers.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.ComponentModel.Annotations.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Formats.Asn1.dll
@@ -224,6 +231,10 @@ F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Primitives.xml
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.WebEncoders.xml
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Net.Http.Headers.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.Cookies.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Sprache.xml
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Buffers.xml
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Formats.Asn1.xml
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Memory.xml
@@ -242,10 +253,6 @@ F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Newtonsoft.Json.xml
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Antlr3.Runtime.pdb
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.AssemblyReference.cache
-F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.CoreCompileInputs.cache
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeR.0ADD80A9.Up2Date
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.pdb
-F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Sprache.dll
-F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Sprache.xml

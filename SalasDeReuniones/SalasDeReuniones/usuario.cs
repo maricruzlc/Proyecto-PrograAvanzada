@@ -11,10 +11,7 @@ namespace SalasDeReuniones
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel;
-    using Microsoft.AspNetCore.Identity;
-
-
+    
     public partial class usuario
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -34,14 +31,6 @@ namespace SalasDeReuniones
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<reserva> reservas { get; set; }
-        [DisplayName("Rol del Usuario")]
-
-
         public virtual role role { get; set; }
-        public void SetPassword(string password)
-        {
-            var hasher = new PasswordHasher<usuario>(); 
-            this.contrasena = hasher.HashPassword(this, password); 
-        }
     }
 }
