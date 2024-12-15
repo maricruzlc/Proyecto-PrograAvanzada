@@ -10,20 +10,20 @@
     @Html.AntiForgeryToken()
 
     <div class="form-group">
-        @Html.LabelFor(model => model.Usuario1)
+        @Html.LabelFor(model => model.Usuario1, "Usuario")
         @Html.TextBoxFor(model => model.Usuario1, new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.Usuario1)
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.contrasena)
+        @Html.LabelFor(model => model.contrasena, "Contraseña")
         @Html.PasswordFor(model => model.contrasena, new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.contrasena)
     </div>
 
     <div class="form-group">
         @Html.LabelFor(model => model.Nombre)
-        @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control" })
+        @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control", })
         @Html.ValidationMessageFor(model => model.Nombre)
     </div>
 

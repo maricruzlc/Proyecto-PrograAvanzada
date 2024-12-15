@@ -19,7 +19,7 @@
                 <ul class="navbar-nav flex-grow-1">
                     <li>@Html.ActionLink("Salas", "Index", "Sala", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Equipo de Salas", "Index", "Equipo", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Reservas", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Reservas", "Index", "Reservas", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Estadisticas", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
 
                 </ul>
@@ -57,7 +57,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Todo los derechos Reservados Salas El Mejor</p>
         </footer>
     </div>
 

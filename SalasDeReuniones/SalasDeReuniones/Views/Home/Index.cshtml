@@ -1,36 +1,91 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Inicio";
 }
 
 <main>
     <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+        <h1 id="title">Bienvenidos a nuestras salas de reunión</h1>
+        <p class="lead">Reserva ya algunas de nuestras salas de reunión.</p>
     </section>
 
-   
-
-
+    <!-- Galería de imágenes de salas de reunión -->
     <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://digital.ricoh.es/wp-content/uploads/2018/03/sala-de-reunion-Ricoh.jpeg" class="card-img-top">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://manueldelgado.com.mx/cdn/shop/articles/junta.jpg?v=1677523074" class="card-img-top">
+
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://vogroup.mx/wp-content/uploads/2021/05/salasdejuntasangelopolis-1.jpg" class="card-img-top">
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://cdn.prod.website-files.com/5da0a1a1718dbe0c6b38d860/5f8a1a1f2e33edb9b114699a_6.jpg" class="card-img-top">
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://lambdatres.com/wp-content/uploads/2020/05/Reuniones-6.jpg" class="card-img-top">
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJZ_1W6rgqjUlvgCWmsn4HFkzxdutSQcwNEPsuQZZoqKGEshQ58kF4Ibb302U6JuS1fY&usqp=CAU" class="card-img-top">
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://plus.unsplash.com/premium_photo-1681487144031-d502ea9abefc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FsYSUyMGRlJTIwcmV1bmlvbmVzfGVufDB8fDB8fHww" class="card-img-top">
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1582653291997-079a1c04e5a1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNhbGElMjBkZSUyMHJldW5pb25lc3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/942178270/es/foto/sala-de-conferencias-moderna-con-cartel.jpg?s=612x612&w=0&k=20&c=cQy8e86oTi2DYPkKQn5jv-uqNjblxvE_OkvAsIq6yY4=" class="card-img-top">
+            </div>
+        </div>
     </div>
 </main>
+
+<style>
+    .card {
+        margin-bottom: 20px;
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .card-img-top {
+        transition: transform 0.3s ease-in-out; /* Animación suave */
+        width: 100%; /* Asegura que la imagen ocupe todo el espacio de la tarjeta */
+        max-height: 200px; /* Mantiene la proporción de la imagen */
+    }
+
+
+
+    /* Efecto de zoom cuando el mouse pasa sobre la imagen */
+    .card-img-top:hover {
+        transform: scale(1.5); /* Escala la imagen al 110% */
+    }
+
+
+</style>

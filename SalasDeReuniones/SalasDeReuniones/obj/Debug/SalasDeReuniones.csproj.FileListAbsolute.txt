@@ -81,8 +81,6 @@ D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDe
 D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeR.0ADD80A9.Up2Date
 D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.dll
 D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.pdb
-F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.AssemblyReference.cache
-F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.CoreCompileInputs.cache
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.dll.config
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.pdb
@@ -253,6 +251,8 @@ F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Newtonsoft.Json.xml
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Antlr3.Runtime.pdb
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.AssemblyReference.cache
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.CoreCompileInputs.cache
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeR.0ADD80A9.Up2Date
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.dll
 F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.pdb

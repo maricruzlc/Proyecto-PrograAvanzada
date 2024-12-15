@@ -1,0 +1,63 @@
+﻿@model IEnumerable<reserva>
+
+@{
+    ViewBag.Title = "Ver Reservas";
+}
+
+<div class="reservas-container">
+    <h2>Listado de Reservas</h2>
+
+    <p>
+        @Html.ActionLink("Crear", "Crear", new { }, new { @class = "btn btn-success" })
+    </p>
+
+    @if (User.IsInRole("Usuario"))
+    {
+        <div>
+            <a href="@Url.Action("Index", new { soloFuturas = false })" class="btn btn-primary">Ver Pasadas y Actuales</a>
+            <a href="@Url.Action("Index", new { soloFuturas = true })" class="btn btn-primary">Ver Futuras</a>
+        </div>
+    }
+
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Reservado por:</th>
+                <th>Fecha</th>
+                <th>Hora de Inicio</th>
+                <th>Hora de Fin</th>
+                <th>Sala</th>
+                <th>Detalle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reserva in Model)
+            {
+                <tr>
+                    <td>@reserva.usuario.Nombre</td>
+                    <td>@(reserva.fecha.HasValue ? reserva.fecha.Value.ToString("dd/MM/yyyy") : "")</td>
+                    <td>@reserva.hora_inicio</td>
+                    <td>@reserva.hora_fin</td>
+                    <td>@reserva.sala.nombre</td>
+                    <td>@reserva.detalle</td>
+
+                    @if (User.IsInRole("Administrador"))
+                    {
+                        <td>
+                            <div class="btn-group">
+                                <a href="@Url.Action("Editar", "Reservas", new { id = reserva.IdReserva })" class="btn btn-warning btn-sm">Editar</a>
+                                @using (Html.BeginForm("Eliminar", "Reservas", new { id = reserva.IdReserva }, FormMethod.Post, new { onsubmit = "return confirm('¿Estás seguro de eliminar esta reserva?');" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                                }
+                            </div>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

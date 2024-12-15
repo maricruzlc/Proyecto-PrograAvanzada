@@ -1,0 +1,216 @@
+﻿@{
+    ViewBag.Title = "Crear";
+}
+
+<div class="form-container">
+    <h2>Crear Reserva</h2>
+    <form id="formReserva">
+        <div class="form-group">
+            <label for="fecha">Fecha de la reserva:</label>
+            <input type="date" id="fecha" name="fecha" required />
+        </div>
+
+        <div class="form-group">
+            <label for="horaInicio">Hora de inicio:</label>
+            <input type="time" id="horaInicio" name="horaInicio" required />
+        </div>
+
+        <div class="form-group">
+            <label for="horaFin">Hora de fin:</label>
+            <input type="time" id="horaFin" name="horaFin" required />
+        </div>
+
+        <div class="form-group">
+            <label for="salaSeleccionada">Selecciona una Sala:</label>
+            <select id="salaSeleccionada" required>
+                <option value="">Selecciona una sala</option> <!-- Opción por defecto -->
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="detalle">Detalle:</label>
+            <input type="text" id="detalle" name="detalle" placeholder="Descripción breve" />
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="submit-button">Reservar</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    // Cargar las salas cuando la página esté lista
+    window.onload = function () {
+        fetch('/Reservas/ObtenerSalas')  // Llamar al controlador ObtenerSalas
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();  // Parsear la respuesta como JSON
+            })
+            .then(data => {
+                const selectSala = document.getElementById('salaSeleccionada');
+                selectSala.innerHTML = ''; // Limpiar opciones existentes
+
+                // Validar si hay datos
+                if (!data || data.length === 0) {
+                    console.warn('No hay salas disponibles.');
+                    return;
+                }
+
+                // Llenar el select con las salas
+                data.forEach(sala => {
+                    const option = document.createElement('option');
+                    option.value = sala.IdSala;  // Asignar el ID de la sala al valor de la opción
+                    option.textContent = sala.Nombre;  // Mostrar el nombre de la sala
+                    selectSala.appendChild(option);
+                });
+            })
+            .catch(error => console.error('Error al cargar las salas:', error));
+    };
+
+
+    document.getElementById('fecha').addEventListener('change', function () {
+        const fecha = this.value;
+
+        if (!fecha) {
+            console.error('La fecha no puede estar vacía');
+            return;
+        }
+
+        fetch(`/Reservas/ObtenerSalas?fecha=${fecha}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const selectSala = document.getElementById('salaSeleccionada');
+                selectSala.innerHTML = ''; // Limpiar las opciones anteriores
+
+                // Agregar salas disponibles al select
+                data.forEach(sala => {
+                    const option = document.createElement('option');
+                    option.value = sala.IdSala;
+                    option.textContent = sala.Nombre;
+                    selectSala.appendChild(option);
+                });
+            })
+            .catch(error => console.error('Error al cargar las salas:', error));
+    });
+
+
+
+
+    //crear la reserva
+       var usuarioId = @Session["UsuarioId"];
+
+    document.getElementById('formReserva').addEventListener('submit', function (event) {
+        event.preventDefault(); // Evitar que el formulario se envíe de manera tradicional
+
+        // Obtener los valores del formulario
+        const idSala = document.getElementById('salaSeleccionada').value;
+        const fecha = document.getElementById('fecha').value;
+        const horaInicio = document.getElementById('horaInicio').value;
+        const horaFin = document.getElementById('horaFin').value;
+        const detalle = document.getElementById('detalle').value;
+
+
+        // Verificar si todos los campos están llenos
+        if (!idSala || !fecha || !horaInicio || !horaFin) {
+            alert('Por favor complete todos los campos.');
+            return;
+        }
+
+        // Realizar una solicitud para crear la reserva
+        fetch('/Reservas/CrearReserva', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                idSala: idSala,
+                fecha: fecha,
+                horaInicio: horaInicio,
+                horaFin: horaFin,
+                detalle: detalle,
+                idUsuario: usuarioId // Incluir el Id del usuario logueado
+            })
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(data.message); // Mostrar mensaje de éxito
+                    window.location.href = '/Reservas/Index';  
+
+                } else {
+                    alert(data.message); // Mostrar mensaje de error
+                }
+            })
+            .catch(error => console.error('Error al crear la reserva:', error));
+    });
+
+
+</script>
+
+
+
+
+
+<style>
+    .form-container {
+        margin: 20px auto; /* Márgenes para no afectar el diseño global */
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 400px; /* Ancho máximo */
+        text-align: center; /* Centra el texto del título */
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        text-align: left; /* Alineación izquierda para etiquetas e inputs */
+    }
+
+    label {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #555;
+        display: block; /* Etiquetas como bloque para separar bien */
+    }
+
+    input, select {
+        width: 100%; /* Ocupa el ancho completo del contenedor */
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Asegura que padding no exceda el ancho */
+    }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #007BFF;
+        }
+
+    .submit-button {
+        width: 75%; /* Botón que ocupa el ancho completo */
+        background-color: #007BFF;
+        color: #fff;
+        align-content:center;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        
+    }
+
+        .submit-button:hover {
+            background-color: #0056b3;
+        }
+</style>

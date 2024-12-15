@@ -21,6 +21,7 @@ namespace SalasDeReuniones
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+ 
 
         }
 
@@ -32,6 +33,8 @@ namespace SalasDeReuniones
                 LoginPath = new PathString("/Account/Login")
             });
         }
+
+
 
         protected void Application_AuthenticateRequest(object sender, EventArgs e)
         {
@@ -53,7 +56,7 @@ namespace SalasDeReuniones
             }
         }
 
-
+ 
 
     }
 
