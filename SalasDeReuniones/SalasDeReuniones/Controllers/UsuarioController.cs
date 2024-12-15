@@ -54,13 +54,13 @@ namespace SalasDeReuniones.Controllers
                     newUser.IdRol = rolUsuario.IdRol;
                 }
 
-                // A la contraseña en el usuario
+                //hash a la contraseña en el usuario
                 var hasher = new PasswordHasher<usuario>();
                 newUser.contrasena = hasher.HashPassword(newUser, newUser.contrasena);
 
 
 
-                // Guarda el nuevo usuario en la base de datos
+                //Guarda el nuevo usuario en la base de datos
                 context.usuarios.Add(newUser);
                 context.SaveChanges();
 
@@ -82,23 +82,23 @@ namespace SalasDeReuniones.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Login(string Usuario1, string contrasena)
         {
-            // Verifica si el usuario existe en la base de datos
+            //Verifica si el usuario existe en la base de datos
             var usuario = context.usuarios.FirstOrDefault(x => x.Usuario1 == Usuario1);
 
             if (usuario != null)
             {
                 var hasher = new PasswordHasher<usuario>();
-                // Valida la contraseña usando el hasher
+                //Valida la contraseña usando el hasher
                 if (hasher.VerifyHashedPassword(usuario, usuario.contrasena, contrasena) == PasswordVerificationResult.Success)
                 {
-                    // Crea el ticket de autenticación
+                    //Crea el ticket de autenticación
                     var ticket = new FormsAuthenticationTicket(
                         1,
                         usuario.Usuario1,
                         DateTime.Now,
                         DateTime.Now.AddMinutes(30),
                         false,
-                        usuario.role.Nombre // Aquí va el rol del usuario
+                        usuario.role.Nombre //Acá va el rol del usuario
                     );
 
                     string encryptedTicket = FormsAuthentication.Encrypt(ticket);
@@ -120,10 +120,10 @@ namespace SalasDeReuniones.Controllers
                     HttpContext.User = principal;
 
 
-                    // Asigna el usuario principal al contexto actual
+                    //Asigna el usuario principal al contexto actual
                     HttpContext.User = principal;
 
-                    // Agrega depuración para verificar el rol
+                    //Agrega depuración para verificar el rol
                     Debug.WriteLine("Usuario autenticado: " + usuario.Usuario1);
                     Debug.WriteLine("Rol asignado: " + string.Join(", ", roles));
                     Debug.WriteLine("Es administrador: " + HttpContext.User.IsInRole("Administrador"));
@@ -148,9 +148,9 @@ namespace SalasDeReuniones.Controllers
         {
             var Token = "Token";
             var tiempoActual = DateTime.UtcNow.ToString("yyyyMMddHHmmss");
-            var datos = $"{email}-{tiempoActual}-{Token}";  // Incluye la información en texto claro
+            var datos = $"{email}-{tiempoActual}-{Token}"; 
 
-            // Codificar la cadena en base64
+            //Codificar la cadena en base64
             return Convert.ToBase64String(Encoding.UTF8.GetBytes(datos));
         }
 
@@ -164,17 +164,17 @@ namespace SalasDeReuniones.Controllers
             {
                 System.Diagnostics.Debug.WriteLine($"Usuario encontrado: Nombre = {usuario.Nombre}, Correo = {usuario.Correo}");
 
-                // Generar token
+                //Genera un token
                 var token = GenerarToken(email);
                 System.Diagnostics.Debug.WriteLine($"Token generado para el correo {email}: {token}");
 
-                // Crear enlace para restablecer contraseña
+                //Crea un enlace para restablecer contraseña
                 var enlace = $"http://localhost:49575/Usuario/Restablecer?token={HttpUtility.UrlEncode(token)}";
                 System.Diagnostics.Debug.WriteLine($"Enlace generado: {enlace}");
 
                 try
                 {
-                    // Configurar el correo
+                    //Configuracion del correo
                     System.Diagnostics.Debug.WriteLine("Configurando el mensaje de correo...");
                     var correo = new MailMessage
                     {
@@ -186,7 +186,7 @@ namespace SalasDeReuniones.Controllers
                     correo.To.Add(email);
                     System.Diagnostics.Debug.WriteLine($"Correo configurado correctamente. Destinatario: {email}");
 
-                    // Configurar el cliente SMTP
+                    //Configurar el cliente SMTP
                     System.Diagnostics.Debug.WriteLine("Configurando el cliente SMTP...");
                     var smtpClient = new SmtpClient("smtp-mail.outlook.com")
                     {
@@ -207,7 +207,7 @@ namespace SalasDeReuniones.Controllers
                 }
                 catch (Exception ex)
                 {
-                    // Manejo de excepciones
+                    //Manejo de excepciones
                     System.Diagnostics.Debug.WriteLine($"Error al enviar el correo: {ex.Message}");
                     TempData["Error"] = $"Error al enviar el correo: {ex.Message}";
                     return View();
@@ -215,7 +215,7 @@ namespace SalasDeReuniones.Controllers
             }
             else
             {
-                // Usuario no encontrado
+                //Usuario no encontrado
                 System.Diagnostics.Debug.WriteLine($"No se encontró el usuario con el correo: {email}");
                 ModelState.AddModelError("Email", "El correo electrónico no está registrado.");
                 return View();
@@ -241,7 +241,7 @@ namespace SalasDeReuniones.Controllers
 
             try
             {
-                // Decodificar el token recibido
+                //Decodifica el token recibido
                 var decodedToken = Encoding.UTF8.GetString(Convert.FromBase64String(token));
                 var partes = decodedToken.Split('-');
 
@@ -251,7 +251,7 @@ namespace SalasDeReuniones.Controllers
                     return RedirectToAction("Login");
                 }
 
-                // Asegurarse de que el token no haya expirado, por ejemplo, si ha pasado más de 1 hora.
+                //Asegura de que el token no haya expirado, por ejemplo, si ha pasado más de 1 hora.
                 DateTime tokenTime = DateTime.ParseExact(partes[1], "yyyyMMddHHmmss", null);
                 if (DateTime.UtcNow - tokenTime > TimeSpan.FromHours(1))
                 {
@@ -259,7 +259,7 @@ namespace SalasDeReuniones.Controllers
                     return RedirectToAction("Login");
                 }
 
-                // Si el token es válido, pasar el email a la vista para que el usuario pueda ingresar la nueva contraseña.
+                //Si el token es válido, pasa el email a la vista para que el usuario pueda ingresar la nueva contraseña.
                 ViewBag.Email = partes[0];
                 return View();
             }
@@ -281,7 +281,7 @@ namespace SalasDeReuniones.Controllers
 
             try
             {
-                // Decodificar el token recibido
+                //Decodifica el token recibido
                 var decodedToken = Encoding.UTF8.GetString(Convert.FromBase64String(token));
                 var partes = decodedToken.Split('-');
 
@@ -291,7 +291,7 @@ namespace SalasDeReuniones.Controllers
                     return View();
                 }
 
-                // Obtener el correo asociado con el token
+                //Obtiene el correo asociado con el token
                 var email = partes[0];
                 var usuario = context.usuarios.FirstOrDefault(x => x.Correo == email);
 
@@ -301,7 +301,7 @@ namespace SalasDeReuniones.Controllers
                     return View();
                 }
 
-                // Actualizar la contraseña del usuario
+                //Actualiza la contraseña del usuario
                 var hasher = new PasswordHasher<usuario>();
                 usuario.contrasena = hasher.HashPassword(usuario, newPassword);
                 context.SaveChanges();
@@ -315,17 +315,12 @@ namespace SalasDeReuniones.Controllers
                 return View();
             }
         }
-
-
-
-
-
-
         public ActionResult Logout()
         {
             FormsAuthentication.SignOut();
             Session["UsuarioId"] = null;
             Session["UsuarioNombre"] = null;
+            Session["UsuarioRol"] = null;
             return RedirectToAction("Login", "Usuario");
         }
 

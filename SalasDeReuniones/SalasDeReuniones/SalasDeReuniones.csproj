@@ -408,6 +408,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\EquipoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ReservasController.cs" />
     <Compile Include="Controllers\SalaController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="equipo.cs">
@@ -531,6 +532,10 @@
     <Content Include="Views\Usuario\Recuperar.cshtml" />
     <Content Include="Views\Usuario\Restablecer.cshtml" />
     <Content Include="Views\Usuario\SendToken.cshtml" />
+    <Content Include="Views\Reservas\Crear.cshtml" />
+    <Content Include="Views\Reservas\Index.cshtml" />
+    <Content Include="Views\Reservas\Editar.cshtml" />
+    <Content Include="Views\Reservas\Eliminar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

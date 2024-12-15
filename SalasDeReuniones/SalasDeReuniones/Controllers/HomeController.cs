@@ -8,13 +8,13 @@ using System.Web.Security;
 
 namespace SalasDeReuniones.Controllers
 {
-    [Authorize]
+ 
     public class HomeController : Controller
     {
+        [AllowAnonymous]
         public ActionResult Index()
         {
-            Debug.WriteLine("Usuario en Index: " + User.Identity.Name);
-            Debug.WriteLine("Es administrador en Index: " + User.IsInRole("Administrador"));
+
             return View();
         }
 
@@ -24,7 +24,7 @@ namespace SalasDeReuniones.Controllers
 
             return View();
         }
-        [Authorize(Roles = "Administrador")]
+        [Authorize]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

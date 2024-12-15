@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace SalasDeReuniones.Controllers
 {
+    [Authorize]
     public class EquipoController : Controller
     {
         private ProyectoPAEntities context = new ProyectoPAEntities();

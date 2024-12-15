@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace SalasDeReuniones.Controllers
 {
+    [Authorize]
     public class SalaController : Controller
     {
         private ProyectoPAEntities context = new ProyectoPAEntities();
