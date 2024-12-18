@@ -1,0 +1,212 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    var ocupacionData = ViewData["OcupacionPorSala"];
+    var totalReservasData = ViewData["TotalReservasPorSala"];
+
+    var promedioDuracionData = ViewData["PromedioDuracionReservas"];
+}
+
+<h2 style="text-align:center; color: #333; font-size: 2.5rem; font-weight: bold;">Dashboards</h2>
+
+<h3 style="text-align: center; color: #777; font-size: 1.8rem; margin-top: 40px;">Porcentaje de Ocupación por Sala</h3>
+<div style="max-width: 80%; margin: 0 auto; padding: 20px; background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <canvas id="ocupacionChart"></canvas>
+</div>
+
+<h3 style="text-align:center; color: #777; font-size: 1.8rem; margin-top: 40px;">Minutos Reservados por Sala</h3>
+<div style="max-width: 80%; margin: 0 auto; padding: 20px; background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <canvas id="minutosReservadosChart"></canvas>
+</div>
+
+<h3 style="text-align:center; color: #777; font-size: 1.8rem; margin-top: 40px;">Total de Reservas por Sala</h3>
+<div style="max-width: 80%; margin: 0 auto; padding: 20px; background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <canvas id="totalReservasChart"></canvas>
+</div>
+
+<h3 style="text-align:center; color: #777; font-size: 1.8rem; margin-top: 40px;">Promedio de Duración de Reservas por Sala</h3>
+<div style="max-width: 80%; margin: 0 auto; padding: 20px; background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <canvas id="promedioDuracionChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ocupacionData = @Html.Raw(Json.Encode(ocupacionData));
+    const totalReservasData = @Html.Raw(Json.Encode(totalReservasData));
+    const promedioDuracionData = @Html.Raw(Json.Encode(promedioDuracionData));
+
+    const labels = ocupacionData.map(o => o.Sala);
+    const dataPorcentaje = ocupacionData.map(o => o.PorcentajeOcupacion);
+    const dataMinutos = ocupacionData.map(o => o.MinutosReservados);
+    const totalReservas = totalReservasData.map(o => o.TotalReservas);
+    const promedioDuracion = promedioDuracionData.map(o => o.PromedioDuracion);
+
+    const colorOcupacion = 'rgba(54, 162, 235, 0.6)'; // Azul
+    const borderColorOcupacion = 'rgba(54, 162, 235, 1)';
+
+    const colorMinutos = 'rgba(255, 99, 132, 0.6)'; // Rojo
+    const borderColorMinutos = 'rgba(255, 99, 132, 1)';
+
+    const colorReservas = 'rgba(75, 192, 192, 0.6)'; // Verde
+    const borderColorReservas = 'rgba(75, 192, 192, 1)';
+
+    const colorDuracion = 'rgba(153, 102, 255, 0.6)'; // Morado
+    const borderColorDuracion = 'rgba(153, 102, 255, 1)';
+
+    // Gráfico de porcentaje de ocupación
+    new Chart(document.getElementById('ocupacionChart'), {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Porcentaje de Ocupación',
+                data: dataPorcentaje,
+                backgroundColor: colorOcupacion,
+                borderColor: borderColorOcupacion,
+                borderWidth: 2,
+                hoverBackgroundColor: 'rgba(54, 162, 235, 0.8)',
+                hoverBorderColor: 'rgba(54, 162, 235, 1)',
+                hoverBorderWidth: 3
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        color: '#333',
+                        font: { size: 14 }
+                    },
+                    grid: { color: '#ddd' }
+                },
+                x: {
+                    ticks: {
+                        color: '#333',
+                        font: { size: 14 }
+                    },
+                    grid: { display: false }
+                }
+            },
+            plugins: {
+                tooltip: {
+                    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                    titleColor: '#fff',
+                    bodyColor: '#fff',
+                    cornerRadius: 5,
+                    padding: 10
+                },
+                legend: {
+                    labels: { font: { size: 16 }, padding: 20 }
+                }
+            }
+        }
+    });
+
+    // Gráfico de minutos reservados
+    new Chart(document.getElementById('minutosReservadosChart'), {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Minutos Reservados',
+                data: dataMinutos,
+                backgroundColor: colorMinutos,
+                borderColor: borderColorMinutos,
+                borderWidth: 2,
+                hoverBackgroundColor: 'rgba(255, 99, 132, 0.8)',
+                hoverBorderColor: 'rgba(255, 99, 132, 1)',
+                hoverBorderWidth: 3
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        color: '#333',
+                        font: { size: 14 }
+                    },
+                    grid: { color: '#ddd' }
+                },
+                x: {
+                    ticks: {
+                        color: '#333',
+                        font: { size: 14 }
+                    },
+                    grid: { display: false }
+                }
+            },
+            plugins: {
+                tooltip: {
+                    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                    titleColor: '#fff',
+                    bodyColor: '#fff',
+                    cornerRadius: 5,
+                    padding: 10
+                },
+                legend: {
+                    labels: { font: { size: 16 }, padding: 20 }
+                }
+            }
+        }
+    });
+
+    // Gráfico de total de reservas por sala
+    new Chart(document.getElementById('totalReservasChart'), {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Total de Reservas',
+                data: totalReservas,
+                backgroundColor: colorReservas,
+                borderColor: borderColorReservas,
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        callback: function (value) {
+                            return Math.floor(value); // Redondea a número entero para qu no salgan los decimalaes 
+                        },
+                        stepSize: 1 //  evitar repetidos
+                    }
+                },
+                x: { grid: { display: false } }
+            }
+        }
+    });
+
+    // Gráfico de promedio de duración de reservas
+    new Chart(document.getElementById('promedioDuracionChart'), {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Promedio Duración (min)',
+                data: promedioDuracion,
+                backgroundColor: colorDuracion,
+                borderColor: borderColorDuracion,
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: { beginAtZero: true },
+                x: { grid: { display: false } }
+            }
+        }
+    });
+</script>
+
+

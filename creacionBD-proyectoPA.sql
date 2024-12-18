@@ -5,51 +5,64 @@ USE ProyectoPA;
 GO
 
 create table roles(
-	IdRol int primary key, 
-	Nombre nvarchar(100),
-	Descripcion nvarchar(200));
-
-create table estadoUsuario(
-	IdEstado int primary key,
-	nombreEstado nvarchar(100));
+	IdRol int IDENTITY(1,1) primary key, 
+	Nombre varchar(100));
 
 create table usuarios(
-	IdUsuario int primary key, 
+	IdUsuario int IDENTITY(1,1) primary key, 
 	IdRol int foreign key references roles(IdRol),
-	IdEstado int foreign key references estadoUsuario(IdEstado),
-	Correo nvarchar(100),
+	Usuario varchar(100),
+	contrasena varchar(100),
+	Nombre varchar(100),
+	Apellidos varchar(100),
+	Correo varchar(100),
 	FechaCreacion date);
 
-create table estadoSala(
-	IdEstado int primary key,
-	nombreEstado nvarchar(100));
 
 create table salas(
-	IdSala int primary key,
-	IdEstado int foreign key references estadoSala(IdEstado),
-	nombre nvarchar(100),
+	IdSala int IDENTITY(1,1) primary key,
+	nombre varchar(100),
 	capacidad int,
-	ubicacion nvarchar(200));
+	ubicacion varchar(200),
+	hora_inicio_dispo time,
+	hora_fin_dispo time);
 
-create table historialUso(
-	IdHistorial int primary key,
+create table estadoSala(
+	IdEstado int IDENTITY(1,1) primary key,
 	IdSala int foreign key references salas(IdSala),
-	Fecha date,
-	reservasRealizadas int,
-	totalHoras int);
+	nombreEstado varchar(100),
+	fecha date,
+	hora_inicio time,
+	hora_fin time);
 
-create table estadoReserva(
-	IdEstado int primary key,
-	nombreEstado nvarchar(100));
+create table equipo(
+	Id_Equipo int IDENTITY(1,1) primary key, 
+	nombre_equipo varchar(100));
+
+create table equipo_salas(
+	Id_equipo_salas int IDENTITY(1,1) primary key,
+	Id_Equipo int foreign key references equipo(Id_Equipo),
+	IdSala int foreign key references salas(IdSala));
 
 create table reservas(
-	IdReserva int primary key,
+	IdReserva int IDENTITY(1,1) primary key,
 	IdUsuario int foreign key references usuarios(IdUsuario),
 	IdSala int foreign key references salas(IdSala),
-	IdEstado int foreign key references estadoReserva(IdEstado),
-	FechaInicio time, 
-	FechaFin time, 
-	Detalle nvarchar(100));
+	fecha date,
+	hora_inicio time, 
+	hora_fin time, 
+	detalle varchar(500));
+
 
 GO
 
+INSERT INTO roles VALUES('Administrador');
+INSERT INTO roles VALUES('Usuario');
+Go
+INSERT INTO equipo VALUES('Pizarra');
+INSERT INTO equipo VALUES('Proyector');
+Go
+
+Select * from roles;
+Select * from usuarios;
+Select * from equipo_salas;

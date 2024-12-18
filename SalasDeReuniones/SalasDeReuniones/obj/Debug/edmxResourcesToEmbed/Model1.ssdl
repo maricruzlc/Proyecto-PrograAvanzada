@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProyectoPAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="equipo">
+    <Key>
+      <PropertyRef Name="Id_Equipo" />
+    </Key>
+    <Property Name="Id_Equipo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_equipo" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="equipo_salas">
+    <Key>
+      <PropertyRef Name="Id_equipo_salas" />
+    </Key>
+    <Property Name="Id_equipo_salas" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Equipo" Type="int" />
+    <Property Name="IdSala" Type="int" />
+  </EntityType>
+  <EntityType Name="estadoSala">
+    <Key>
+      <PropertyRef Name="IdEstado" />
+    </Key>
+    <Property Name="IdEstado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdSala" Type="int" />
+    <Property Name="nombreEstado" Type="varchar" MaxLength="100" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="hora_inicio" Type="time" Precision="7" />
+    <Property Name="hora_fin" Type="time" Precision="7" />
+  </EntityType>
+  <EntityType Name="reservas">
+    <Key>
+      <PropertyRef Name="IdReserva" />
+    </Key>
+    <Property Name="IdReserva" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdUsuario" Type="int" />
+    <Property Name="IdSala" Type="int" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="hora_inicio" Type="time" Precision="7" />
+    <Property Name="hora_fin" Type="time" Precision="7" />
+    <Property Name="detalle" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="roles">
+    <Key>
+      <PropertyRef Name="IdRol" />
+    </Key>
+    <Property Name="IdRol" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="salas">
+    <Key>
+      <PropertyRef Name="IdSala" />
+    </Key>
+    <Property Name="IdSala" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" />
+    <Property Name="capacidad" Type="int" />
+    <Property Name="ubicacion" Type="varchar" MaxLength="200" />
+    <Property Name="hora_inicio_dispo" Type="time" Precision="7" />
+    <Property Name="hora_fin_dispo" Type="time" Precision="7" />
+    <Property Name="equipo_disponible" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdRol" Type="int" />
+    <Property Name="Usuario" Type="varchar" MaxLength="100" />
+    <Property Name="contrasena" Type="varchar" MaxLength="100" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="Apellidos" Type="varchar" MaxLength="100" />
+    <Property Name="Correo" Type="varchar" MaxLength="100" />
+    <Property Name="FechaCreacion" Type="date" />
+  </EntityType>
+  <Association Name="FK__equipo_sa__Id_Eq__440B1D61">
+    <End Role="equipo" Type="Self.equipo" Multiplicity="0..1" />
+    <End Role="equipo_salas" Type="Self.equipo_salas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="equipo">
+        <PropertyRef Name="Id_Equipo" />
+      </Principal>
+      <Dependent Role="equipo_salas">
+        <PropertyRef Name="Id_Equipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__equipo_sa__IdSal__44FF419A">
+    <End Role="salas" Type="Self.salas" Multiplicity="0..1" />
+    <End Role="equipo_salas" Type="Self.equipo_salas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="salas">
+        <PropertyRef Name="IdSala" />
+      </Principal>
+      <Dependent Role="equipo_salas">
+        <PropertyRef Name="IdSala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__estadoSal__IdSal__45F365D3">
+    <End Role="salas" Type="Self.salas" Multiplicity="0..1" />
+    <End Role="estadoSala" Type="Self.estadoSala" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="salas">
+        <PropertyRef Name="IdSala" />
+      </Principal>
+      <Dependent Role="estadoSala">
+        <PropertyRef Name="IdSala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__reservas__IdSala__46E78A0C">
+    <End Role="salas" Type="Self.salas" Multiplicity="0..1" />
+    <End Role="reservas" Type="Self.reservas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="salas">
+        <PropertyRef Name="IdSala" />
+      </Principal>
+      <Dependent Role="reservas">
+        <PropertyRef Name="IdSala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__reservas__IdUsua__47DBAE45">
+    <End Role="usuarios" Type="Self.usuarios" Multiplicity="0..1" />
+    <End Role="reservas" Type="Self.reservas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="reservas">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__usuarios__IdRol__48CFD27E">
+    <End Role="roles" Type="Self.roles" Multiplicity="0..1" />
+    <End Role="usuarios" Type="Self.usuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="roles">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="usuarios">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProyectoPAModelStoreContainer">
+    <EntitySet Name="equipo" EntityType="Self.equipo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="equipo_salas" EntityType="Self.equipo_salas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="estadoSala" EntityType="Self.estadoSala" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="reservas" EntityType="Self.reservas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="roles" EntityType="Self.roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="salas" EntityType="Self.salas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__equipo_sa__Id_Eq__440B1D61" Association="Self.FK__equipo_sa__Id_Eq__440B1D61">
+      <End Role="equipo" EntitySet="equipo" />
+      <End Role="equipo_salas" EntitySet="equipo_salas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__equipo_sa__IdSal__44FF419A" Association="Self.FK__equipo_sa__IdSal__44FF419A">
+      <End Role="salas" EntitySet="salas" />
+      <End Role="equipo_salas" EntitySet="equipo_salas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__estadoSal__IdSal__45F365D3" Association="Self.FK__estadoSal__IdSal__45F365D3">
+      <End Role="salas" EntitySet="salas" />
+      <End Role="estadoSala" EntitySet="estadoSala" />
+    </AssociationSet>
+    <AssociationSet Name="FK__reservas__IdSala__46E78A0C" Association="Self.FK__reservas__IdSala__46E78A0C">
+      <End Role="salas" EntitySet="salas" />
+      <End Role="reservas" EntitySet="reservas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__reservas__IdUsua__47DBAE45" Association="Self.FK__reservas__IdUsua__47DBAE45">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="reservas" EntitySet="reservas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__usuarios__IdRol__48CFD27E" Association="Self.FK__usuarios__IdRol__48CFD27E">
+      <End Role="roles" EntitySet="roles" />
+      <End Role="usuarios" EntitySet="usuarios" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            @Html.ActionLink("Salas El Mejor", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("Salas", "Index", "Sala", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Equipo de Salas", "Index", "Equipo", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Reservas", "Index", "Reservas", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Estadisticas", "Dashboard", "Estadisticas", new { area = "" }, new { @class = "nav-link" })</li>
+
+                </ul>
+
+                @*Aca se controla el dropdown del perfil*@
+                <ul class="navbar-nav ml-auto">
+                    @if (Session["UsuarioId"] != null)
+                    {
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Bienvenido, @Session["UsuarioNombre"]
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                <li>
+                                    @Html.ActionLink("Cerrar sesión", "Logout", "Usuario", null, new { @class = "dropdown-item" })
+                                </li>
+                            </ul>
+                        </li>
+                    }
+                    else if (!(ViewContext.RouteData.Values["controller"].ToString() == "Usuario" &&
+                    ViewContext.RouteData.Values["action"].ToString() == "Login"))
+                    {
+                        <li class="nav-item">
+                            @Html.ActionLink("Iniciar sesión", "Login", "Usuario", null, new { @class = "nav-link" })
+                        </li>
+                    }
+                </ul>
+
+
+
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Todo los derechos Reservados Salas El Mejor</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

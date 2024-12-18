@@ -1,0 +1,55 @@
+﻿@model SalasDeReuniones.usuario
+@{
+    ViewBag.Title = "Crear Usuario";
+}
+
+<h2>Crear Usuario</h2>
+
+@using (Html.BeginForm("Crear", "Usuario", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Usuario1, "Usuario")
+        @Html.TextBoxFor(model => model.Usuario1, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Usuario1)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.contrasena, "Contraseña")
+        @Html.PasswordFor(model => model.contrasena, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.contrasena)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Nombre)
+        @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control", })
+        @Html.ValidationMessageFor(model => model.Nombre)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Apellidos)
+        @Html.TextBoxFor(model => model.Apellidos, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Apellidos)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Correo)
+        @Html.TextBoxFor(model => model.Correo, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Correo)
+    </div>
+
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.FechaCreacion)
+        @Html.TextBoxFor(model => model.FechaCreacion, new { @class = "form-control", @type = "date" })
+        @Html.ValidationMessageFor(model => model.FechaCreacion)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Crear Usuario</button>
+}
+
+<div>
+    @Html.ActionLink("Volver a la lista de usuarios", "Index")
+</div>

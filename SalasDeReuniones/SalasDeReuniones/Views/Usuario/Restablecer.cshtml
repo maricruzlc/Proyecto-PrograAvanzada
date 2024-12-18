@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Restablecer contraseña";
+}
+
+<h2>Restablecer contraseña</h2>
+
+<form method="post">
+    <input type="hidden" name="token" value="@Request.QueryString["token"]" />
+
+    <label for="newPassword">Nueva contraseña:</label>
+    <input type="password" id="newPassword" name="newPassword" required />
+
+    <label for="confirmPassword">Confirmar contraseña:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required />
+
+    <button type="submit">Restablecer</button>
+</form>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success">@TempData["Mensaje"]</div>
+}

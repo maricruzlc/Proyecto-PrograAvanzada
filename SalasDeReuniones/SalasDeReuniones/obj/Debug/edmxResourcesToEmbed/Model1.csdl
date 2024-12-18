@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProyectoPAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="estadoSala">
+    <Key>
+      <PropertyRef Name="IdEstado" />
+    </Key>
+    <Property Name="IdEstado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdSala" Type="Int32" />
+    <Property Name="nombreEstado" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="hora_inicio" Type="Time" Precision="7" />
+    <Property Name="hora_fin" Type="Time" Precision="7" />
+    <NavigationProperty Name="sala" Relationship="Self.FK__estadoSal__IdSal__46E78A0C" FromRole="estadoSala" ToRole="salas" />
+  </EntityType>
+  <EntityType Name="reserva">
+    <Key>
+      <PropertyRef Name="IdReserva" />
+    </Key>
+    <Property Name="IdReserva" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdUsuario" Type="Int32" />
+    <Property Name="IdSala" Type="Int32" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="hora_inicio" Type="Time" Precision="7" />
+    <Property Name="hora_fin" Type="Time" Precision="7" />
+    <Property Name="detalle" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="sala" Relationship="Self.FK__reservas__IdSala__59FA5E80" FromRole="reservas" ToRole="salas" />
+    <NavigationProperty Name="usuario" Relationship="Self.FK__reservas__IdUsua__59063A47" FromRole="reservas" ToRole="usuarios" />
+  </EntityType>
+  <EntityType Name="role">
+    <Key>
+      <PropertyRef Name="IdRol" />
+    </Key>
+    <Property Name="IdRol" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="usuarios" Relationship="Self.FK__usuarios__IdRol__5629CD9C" FromRole="roles" ToRole="usuarios" />
+  </EntityType>
+  <EntityType Name="sala">
+    <Key>
+      <PropertyRef Name="IdSala" />
+    </Key>
+    <Property Name="IdSala" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="capacidad" Type="Int32" />
+    <Property Name="ubicacion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="equipo_disponible" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="estadoSalas" Relationship="Self.FK__estadoSal__IdSal__46E78A0C" FromRole="salas" ToRole="estadoSala" />
+    <NavigationProperty Name="reservas" Relationship="Self.FK__reservas__IdSala__59FA5E80" FromRole="salas" ToRole="reservas" />
+    <Property Name="hora_inicio_dispo" Type="Time" Precision="7" />
+    <Property Name="hora_fin_dispo" Type="Time" Precision="7" />
+    <NavigationProperty Name="equipo_salas1" Relationship="ProyectoPAModel.FK__equipo_sa__IdSal__70DDC3D8" FromRole="sala" ToRole="equipo_salas1" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdRol" Type="Int32" />
+    <Property Name="Usuario1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="contrasena" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Apellidos" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="reservas" Relationship="Self.FK__reservas__IdUsua__59063A47" FromRole="usuarios" ToRole="reservas" />
+    <NavigationProperty Name="role" Relationship="Self.FK__usuarios__IdRol__5629CD9C" FromRole="usuarios" ToRole="roles" />
+  </EntityType>
+  <Association Name="FK__estadoSal__IdSal__46E78A0C">
+    <End Role="salas" Type="Self.sala" Multiplicity="0..1" />
+    <End Role="estadoSala" Type="Self.estadoSala" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="salas">
+        <PropertyRef Name="IdSala" />
+      </Principal>
+      <Dependent Role="estadoSala">
+        <PropertyRef Name="IdSala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__reservas__IdSala__59FA5E80">
+    <End Role="salas" Type="Self.sala" Multiplicity="0..1" />
+    <End Role="reservas" Type="Self.reserva" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="salas">
+        <PropertyRef Name="IdSala" />
+      </Principal>
+      <Dependent Role="reservas">
+        <PropertyRef Name="IdSala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__reservas__IdUsua__59063A47">
+    <End Role="usuarios" Type="Self.usuario" Multiplicity="0..1" />
+    <End Role="reservas" Type="Self.reserva" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="reservas">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__usuarios__IdRol__5629CD9C">
+    <End Role="roles" Type="Self.role" Multiplicity="0..1" />
+    <End Role="usuarios" Type="Self.usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="roles">
+        <PropertyRef Name="IdRol" />
+      </Principal>
+      <Dependent Role="usuarios">
+        <PropertyRef Name="IdRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProyectoPAEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="estadoSalas" EntityType="Self.estadoSala" />
+    <EntitySet Name="reservas" EntityType="Self.reserva" />
+    <EntitySet Name="roles" EntityType="Self.role" />
+    <EntitySet Name="salas" EntityType="Self.sala" />
+    <EntitySet Name="usuarios" EntityType="Self.usuario" />
+    <AssociationSet Name="FK__estadoSal__IdSal__46E78A0C" Association="Self.FK__estadoSal__IdSal__46E78A0C">
+      <End Role="salas" EntitySet="salas" />
+      <End Role="estadoSala" EntitySet="estadoSalas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__reservas__IdSala__59FA5E80" Association="Self.FK__reservas__IdSala__59FA5E80">
+      <End Role="salas" EntitySet="salas" />
+      <End Role="reservas" EntitySet="reservas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__reservas__IdUsua__59063A47" Association="Self.FK__reservas__IdUsua__59063A47">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="reservas" EntitySet="reservas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__usuarios__IdRol__5629CD9C" Association="Self.FK__usuarios__IdRol__5629CD9C">
+      <End Role="roles" EntitySet="roles" />
+      <End Role="usuarios" EntitySet="usuarios" />
+    </AssociationSet>
+    <EntitySet Name="equipoes" EntityType="ProyectoPAModel.equipo" />
+    <EntitySet Name="equipo_salas" EntityType="ProyectoPAModel.equipo_salas" />
+    <AssociationSet Name="FK__equipo_sa__Id_Eq__6FE99F9F" Association="ProyectoPAModel.FK__equipo_sa__Id_Eq__6FE99F9F">
+      <End Role="equipo" EntitySet="equipoes" />
+      <End Role="equipo_salas1" EntitySet="equipo_salas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__equipo_sa__IdSal__70DDC3D8" Association="ProyectoPAModel.FK__equipo_sa__IdSal__70DDC3D8">
+      <End Role="sala" EntitySet="salas" />
+      <End Role="equipo_salas1" EntitySet="equipo_salas" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="equipo">
+    <Key>
+      <PropertyRef Name="Id_Equipo" />
+    </Key>
+    <Property Name="Id_Equipo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_equipo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="equipo_salas" Relationship="ProyectoPAModel.FK__equipo_sa__Id_Eq__6FE99F9F" FromRole="equipo" ToRole="equipo_salas1" />
+  </EntityType>
+  <EntityType Name="equipo_salas">
+    <Key>
+      <PropertyRef Name="Id_equipo_salas" />
+    </Key>
+    <Property Name="Id_equipo_salas" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id_Equipo" Type="Int32" />
+    <Property Name="IdSala" Type="Int32" />
+    <NavigationProperty Name="equipo" Relationship="ProyectoPAModel.FK__equipo_sa__Id_Eq__6FE99F9F" FromRole="equipo_salas1" ToRole="equipo" />
+    <NavigationProperty Name="sala" Relationship="ProyectoPAModel.FK__equipo_sa__IdSal__70DDC3D8" FromRole="equipo_salas1" ToRole="sala" />
+  </EntityType>
+  <Association Name="FK__equipo_sa__Id_Eq__6FE99F9F">
+    <End Type="ProyectoPAModel.equipo" Role="equipo" Multiplicity="0..1" />
+    <End Type="ProyectoPAModel.equipo_salas" Role="equipo_salas1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="equipo">
+        <PropertyRef Name="Id_Equipo" />
+      </Principal>
+      <Dependent Role="equipo_salas1">
+        <PropertyRef Name="Id_Equipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__equipo_sa__IdSal__70DDC3D8">
+    <End Type="ProyectoPAModel.sala" Role="sala" Multiplicity="0..1" />
+    <End Type="ProyectoPAModel.equipo_salas" Role="equipo_salas1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sala">
+        <PropertyRef Name="IdSala" />
+      </Principal>
+      <Dependent Role="equipo_salas1">
+        <PropertyRef Name="IdSala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

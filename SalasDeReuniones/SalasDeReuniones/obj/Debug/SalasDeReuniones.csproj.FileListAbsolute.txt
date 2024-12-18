@@ -1,0 +1,433 @@
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.dll.config
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.pdb
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csc.exe
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csc.exe.config
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csc.rsp
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csi.exe
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csi.exe.config
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csi.rsp
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.AppContext.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Collections.Immutable.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Console.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Globalization.Calendars.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.Compression.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.FileSystem.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Net.Http.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Net.Sockets.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Reflection.Metadata.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.ValueTuple.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.XPath.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\vbc.exe
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\vbc.exe.config
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\vbc.rsp
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\VBCSCompiler.exe
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\VBCSCompiler.exe.config
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Antlr3.Runtime.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.SqlServer.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Web.Infrastructure.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Newtonsoft.Json.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Helpers.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Mvc.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Optimization.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Razor.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Deployment.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Razor.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\WebGrease.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.xml
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.SqlServer.xml
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Helpers.xml
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Mvc.xml
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Optimization.xml
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Razor.xml
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.xml
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Deployment.xml
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Razor.xml
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Newtonsoft.Json.xml
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Antlr3.Runtime.pdb
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.AssemblyReference.cache
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.CoreCompileInputs.cache
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeR.0ADD80A9.Up2Date
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.dll
+D:\DOCUMENTOS\PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.pdb
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.dll.config
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.pdb
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csc.exe
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csc.exe.config
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csc.rsp
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csi.exe
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csi.exe.config
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csi.rsp
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.Managed.Core.targets
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.AppContext.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Collections.Immutable.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Console.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Globalization.Calendars.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.Compression.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.FileSystem.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Net.Http.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Net.Sockets.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Reflection.Metadata.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.ValueTuple.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.XmlDocument.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.XPath.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\vbc.exe
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\vbc.exe.config
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\vbc.rsp
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\VBCSCompiler.exe
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\VBCSCompiler.exe.config
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Antlr3.Runtime.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.SqlServer.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Core.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.DataProtection.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Extensions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Features.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Identity.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.WebUtilities.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Bcl.Cryptography.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.Binder.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Identity.Core.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Logging.Abstractions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Logging.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.ObjectPool.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Options.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Primitives.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.WebEncoders.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Net.Http.Headers.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.Cookies.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Web.Infrastructure.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Win32.Registry.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Newtonsoft.Json.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Owin.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Sprache.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Buffers.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.ComponentModel.Annotations.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Formats.Asn1.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Memory.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Numerics.Vectors.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Security.AccessControl.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Security.Cryptography.Xml.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Security.Permissions.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Security.Principal.Windows.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Text.Encodings.Web.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.ValueTuple.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Helpers.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Mvc.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Optimization.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Razor.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Deployment.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Razor.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\WebGrease.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.SqlServer.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Core.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.DataProtection.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Extensions.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Features.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Identity.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.WebUtilities.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Bcl.Cryptography.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.Binder.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Identity.Core.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Logging.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Logging.Abstractions.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.ObjectPool.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Options.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Primitives.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.WebEncoders.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Net.Http.Headers.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.Cookies.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Sprache.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Buffers.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Formats.Asn1.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Memory.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Numerics.Vectors.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Security.Cryptography.Xml.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Text.Encodings.Web.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.ValueTuple.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Helpers.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Mvc.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Optimization.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Razor.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Deployment.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Razor.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Newtonsoft.Json.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Antlr3.Runtime.pdb
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.AssemblyReference.cache
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.CoreCompileInputs.cache
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeR.0ADD80A9.Up2Date
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.dll
+F:\C# Universidad\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.pdb
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.dll.config
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\SalasDeReuniones.pdb
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csc.exe
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csc.exe.config
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csc.rsp
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csi.exe
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csi.exe.config
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\csi.rsp
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.AppContext.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Console.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.Compression.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Net.Http.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Net.Sockets.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.ValueTuple.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\vbc.exe
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\vbc.exe.config
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\vbc.rsp
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\VBCSCompiler.exe
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Antlr3.Runtime.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.SqlServer.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Identity.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Bcl.Cryptography.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Identity.Core.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Logging.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Options.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Win32.Registry.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Newtonsoft.Json.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Owin.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Sprache.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Buffers.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.ComponentModel.Annotations.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Formats.Asn1.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Memory.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Numerics.Vectors.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Security.AccessControl.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Security.Cryptography.Xml.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Security.Permissions.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Security.Principal.Windows.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Text.Encodings.Web.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.ValueTuple.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Helpers.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Mvc.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Optimization.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Razor.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Razor.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\WebGrease.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\EntityFramework.SqlServer.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.Identity.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Bcl.Cryptography.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Identity.Core.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Logging.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Options.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Sprache.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Buffers.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Formats.Asn1.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Memory.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Numerics.Vectors.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Security.Cryptography.Xml.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Text.Encodings.Web.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.ValueTuple.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Helpers.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Mvc.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Optimization.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.Razor.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\System.Web.WebPages.Razor.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Newtonsoft.Json.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Antlr3.Runtime.pdb
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.AssemblyReference.cache
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.csproj.CoreCompileInputs.cache
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeR.0ADD80A9.Up2Date
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.dll
+C:\Users\maric\Desktop\2024\universidad\VIC\progra avanzada\proyecto\Proyecto-PrograAvanzada\SalasDeReuniones\SalasDeReuniones\obj\Debug\SalasDeReuniones.pdb

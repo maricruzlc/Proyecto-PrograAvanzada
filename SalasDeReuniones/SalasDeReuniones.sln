@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalasDeReuniones", "SalasDeReuniones\SalasDeReuniones.csproj", "{96C98C26-C16F-48CF-8C7F-084D0D46550A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96C98C26-C16F-48CF-8C7F-084D0D46550A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C98C26-C16F-48CF-8C7F-084D0D46550A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C98C26-C16F-48CF-8C7F-084D0D46550A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C98C26-C16F-48CF-8C7F-084D0D46550A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D1BEA5B-A1CA-484B-8CEB-4E5F54DE9403}
+	EndGlobalSection
+EndGlobal

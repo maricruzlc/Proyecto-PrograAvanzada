@@ -1,0 +1,31 @@
+﻿@model IEnumerable<SalasDeReuniones.equipo>
+@{
+    ViewBag.Title = "Listado de Equipos";
+}
+
+<h2>Listado de Equipos</h2>
+
+<p>
+    @Html.ActionLink("Crear", "Crear", new { }, new { @class = "btn btn-primary" })
+</p>
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <th>Nombre del Equipo</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lista in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => lista.nombre_equipo)</td>
+                
+                <td>
+                    @Html.ActionLink("Editar", "Editar", new { id = lista.Id_Equipo }, new { @class = "btn btn-secondary" }) |
+                    @Html.ActionLink("Eliminar", "Eliminar", new { id = lista.Id_Equipo }, new { @class = "btn btn-danger" }) |
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

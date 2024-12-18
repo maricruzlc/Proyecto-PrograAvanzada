@@ -1,0 +1,45 @@
+﻿@model SalasDeReuniones.sala
+@{
+    ViewBag.Title = "Eliminar Sala";
+}
+
+<h2>Eliminar Sala</h2>
+
+<h3 class="text-danger">Esta seguro que desea eliminar esta Sala?</h3>
+
+<div>
+    <h4>Sala</h4>
+    <hr />
+    <dl>
+        <dt>
+            @Html.DisplayNameFor(sala => sala.nombre)
+        </dt>
+        <dd>
+            @Html.DisplayNameFor(sala => sala.nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(sala => sala.capacidad)
+        </dt>
+        <dd>
+            @Html.DisplayNameFor(sala => sala.capacidad)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(sala => sala.ubicacion)
+        </dt>
+        <dd>
+            @Html.DisplayNameFor(sala => sala.ubicacion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(sala => sala.equipo_disponible)
+        </dt>
+        <dd>
+            @Html.DisplayNameFor(sala => sala.equipo_disponible)
+        </dd>
+    </dl>
+    @using (Html.BeginForm())
+    {
+        @Html.HiddenFor(sala => sala.IdSala)
+        <input type="submit" value="Eliminar" class="btn btn-danger" />
+        @Html.ActionLink("Atras", "Index","Sala")
+    }
+</div>
