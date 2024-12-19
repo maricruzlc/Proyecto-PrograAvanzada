@@ -21,7 +21,7 @@ namespace SalasDeReuniones.Controllers
         [Authorize]
         public ActionResult Index(bool? soloFuturas = false, bool? soloActuales = false)
         {
-            //Aca se configuran los filtros
+            // Aca se configuran los filtros
             Debug.WriteLine("Usuario en Index: " + User.Identity.Name);
             Debug.WriteLine("Es administrador en IndexReservas: " + User.IsInRole("Administrador"));
             var idUsuario = Session["UsuarioId"] as int?;
@@ -37,39 +37,40 @@ namespace SalasDeReuniones.Controllers
 
             var reservas = context.reservas.AsQueryable();
 
-            // Si es administrador, mostrar todas las reservas
+            // Si es administrador, mostrar todas las reservas sin aplicar filtros de usuario ni fechas
             if (User.IsInRole("Administrador"))
             {
-                reservas = context.reservas; // No hay filtro por usuario
+                if (soloFuturas.HasValue && soloFuturas.Value)
+                {
+                    reservas = reservas.Where(r => r.fecha.HasValue && r.fecha.Value > DateTime.Today);
+                }
+                else if (soloActuales.HasValue && soloActuales.Value)
+                {
+                    reservas = reservas.Where(r => r.fecha.HasValue && r.fecha.Value == DateTime.Today);
+                }
+                // Si no hay filtros aplicados, muestra todas las reservas
             }
             else
             {
                 // Para usuarios normales, se filtra por IdUsuario
                 reservas = reservas.Where(r => r.IdUsuario == idUsuario.Value);
+
+                // Filtrar reservas futuras o pasadas para usuarios normales
+                if (soloFuturas.HasValue && soloFuturas.Value)
+                {
+                    reservas = reservas.Where(r => r.fecha.HasValue && r.fecha.Value > DateTime.Today);
+                }
+                else
+                {
+                    reservas = reservas.Where(r => r.fecha.HasValue && r.fecha.Value <= DateTime.Today);
+                }
             }
 
-            // Filtrar reservas futuras o pasadas
-            if (soloFuturas.HasValue && soloFuturas.Value)
-            {
-               reservas = reservas.Where(r => r.fecha.HasValue && r.fecha.Value > DateTime.Today);
-            }
-            else
-            {
-                reservas = reservas.Where(r => r.fecha.HasValue && r.fecha.Value <= DateTime.Today);
-            }
-
-      
-
-
-
-
-
-
-            // Cargar datos de las reservas junto con los usuarios
-            var reservasConUsuarios = reservas.Include(r => r.usuario).ToList();
-
-            return View(reservasConUsuarios);
+            // Retornar el modelo con las reservas filtradas
+            return View(reservas.ToList());
         }
+
+
 
 
         public ActionResult Crear()

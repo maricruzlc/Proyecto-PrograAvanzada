@@ -1,10 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maric\\Desktop\\2024\\PA\\Proyecto-PrograAvanzada\\SalasDeReuniones\\",
+  "WorkspaceRootPath": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|c:\\users\\maric\\desktop\\2024\\pa\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\controllers\\estadisticascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\controllers\\estadisticascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\usuario\\recuperar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\usuario\\recuperar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\usuario\\restablecer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\usuario\\restablecer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\usuario\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\usuario\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\controllers\\equipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\controllers\\equipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\equipo\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\equipo\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\equipo_salas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\equipo_salas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\equipo\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\equipo\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\reservas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\reservas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\views\\sala\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\sala\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\salasdereuniones\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|f:\\c# universidad\\proyecto-prograavanzada\\salasdereuniones\\salasdereuniones\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\salasdereuniones\\views\\reservas\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\reservas\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\salasdereuniones\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\salasdereuniones\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\salasdereuniones\\views\\reservas\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\reservas\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\salasdereuniones\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\salasdereuniones\\views\\reservas\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C98C26-C16F-48CF-8C7F-084D0D46550A}|SalasDeReuniones\\SalasDeReuniones.csproj|solutionrelative:salasdereuniones\\views\\reservas\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +102,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 22,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -50,20 +142,306 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Crear.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Usuario\\Crear.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Crear.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Usuario\\Crear.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T01:07:39.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Restablecer.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Restablecer.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Usuario\\Restablecer.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Restablecer.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Usuario\\Restablecer.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T01:06:00.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Recuperar.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Recuperar.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Usuario\\Recuperar.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Recuperar.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Usuario\\Recuperar.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T01:05:29.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Usuario\\Login.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Usuario\\Login.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T01:03:30.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T01:01:50.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "sala.cs",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\sala.cs",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\sala.cs",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\sala.cs",
+              "RelativeToolTip": "SalasDeReuniones\\sala.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:48:58.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "equipo.cs",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\equipo.cs",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\equipo.cs",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\equipo.cs",
+              "RelativeToolTip": "SalasDeReuniones\\equipo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:48:55.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "equipo_salas.cs",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\equipo_salas.cs",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\equipo_salas.cs",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\equipo_salas.cs",
+              "RelativeToolTip": "SalasDeReuniones\\equipo_salas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:48:54.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Equipo\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Equipo\\Eliminar.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Equipo\\Eliminar.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Equipo\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T00:37:02.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalaController.cs",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\SalaController.cs",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Controllers\\SalaController.cs",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\SalaController.cs",
+              "RelativeToolTip": "SalasDeReuniones\\Controllers\\SalaController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAgwGsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:27:10.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Equipo\\Editar.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Equipo\\Editar.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Equipo\\Editar.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Equipo\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T00:26:38.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EstadisticasController.cs",
-              "DocumentMoniker": "C:\\Users\\maric\\Desktop\\2024\\PA\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\EstadisticasController.cs",
-              "RelativeDocumentMoniker": "SalasDeReuniones\\Controllers\\EstadisticasController.cs",
-              "ToolTip": "C:\\Users\\maric\\Desktop\\2024\\PA\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\EstadisticasController.cs",
-              "RelativeToolTip": "SalasDeReuniones\\Controllers\\EstadisticasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T08:43:43.907Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T00:09:54.683Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EquipoController.cs",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\EquipoController.cs",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Controllers\\EquipoController.cs",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\EquipoController.cs",
+              "RelativeToolTip": "SalasDeReuniones\\Controllers\\EquipoController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:25:57.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Reservas\\Index.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Reservas\\Index.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Reservas\\Index.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Reservas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T23:57:04.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReservasController.cs",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\ReservasController.cs",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Controllers\\ReservasController.cs",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\ReservasController.cs",
+              "RelativeToolTip": "SalasDeReuniones\\Controllers\\ReservasController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAnwDMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:55:09.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Sala\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Sala\\Eliminar.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Sala\\Eliminar.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Sala\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T00:44:14.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Reservas\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Reservas\\Eliminar.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Reservas\\Eliminar.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Reservas\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T21:46:24.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T21:23:34.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Reservas\\Crear.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Reservas\\Crear.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Reservas\\Crear.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Reservas\\Crear.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwv20AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T21:00:43.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Controllers\\UsuarioController.cs",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "SalasDeReuniones\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAgwDwBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T20:23:04.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Global.asax.cs",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Global.asax.cs",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Global.asax.cs",
+              "RelativeToolTip": "SalasDeReuniones\\Global.asax.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T20:18:38.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Reservas\\Editar.cshtml",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Views\\Reservas\\Editar.cshtml",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Views\\Reservas\\Editar.cshtml",
+              "RelativeToolTip": "SalasDeReuniones\\Views\\Reservas\\Editar.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwBsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T09:59:01.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SalasDeReuniones\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\C# Universidad\\Proyecto-PrograAvanzada\\SalasDeReuniones\\SalasDeReuniones\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SalasDeReuniones\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:27:15.264Z"
             }
           ]
         },

@@ -3,28 +3,41 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Salas El Mejor</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
-        <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark custom-nav">
+        <div class="container d-flex justify-content-center w-100">
+            <!-- Centrado de la barra -->
             @Html.ActionLink("Salas El Mejor", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Salas", "Index", "Sala", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Equipo de Salas", "Index", "Equipo", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Reservas", "Index", "Reservas", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Estadisticas", "Dashboard", "Estadisticas", new { area = "" }, new { @class = "nav-link" })</li>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-center w-100">
+                <!-- Centrado del contenido -->
+                <ul class="navbar-nav flex-grow-1 justify-content-center">
+                    <!-- Centrado de los enlaces -->
+                    @if (User.IsInRole("Administrador"))
+                    {
+                        <li>@Html.ActionLink("Salas", "Index", "Sala", new { area = "" }, new { @class = "nav-link" })</li>
+                    }
 
+                    @if (User.IsInRole("Administrador"))
+                    {
+                        <li>@Html.ActionLink("Equipo de Salas", "Index", "Equipo", new { area = "" }, new { @class = "nav-link" })</li>
+                    }
+                    @if (User.IsInRole("Administrador"))
+                    {
+                        <li>@Html.ActionLink("Estadisticas", "Dashboard", "Estadisticas", new { area = "" }, new { @class = "nav-link" })</li>
+                    }
+
+                    <li>@Html.ActionLink("Reservas", "Index", "Reservas", new { area = "" }, new { @class = "nav-link" })</li>
                 </ul>
 
-                @*Aca se controla el dropdown del perfil*@
+                <!-- Dropdown del perfil de usuario -->
                 <ul class="navbar-nav ml-auto">
                     @if (Session["UsuarioId"] != null)
                     {
@@ -48,11 +61,10 @@
                     }
                 </ul>
 
-
-
             </div>
         </div>
     </nav>
+
     <div class="container body-content">
         @RenderBody()
         <hr />
@@ -68,3 +80,12 @@
 
 </body>
 </html>
+
+
+<style>
+    .custom-nav {
+        background-color: #1f618d; /* Cambia este color por el que quieras /
+    color: #ffffff; / Cambia el color del texto si es necesario */
+    }
+
+</style>

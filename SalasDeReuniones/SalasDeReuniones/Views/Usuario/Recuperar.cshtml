@@ -2,19 +2,70 @@
     ViewBag.Title = "Olvidé mi Contraseña";
 }
 
-<h2>@ViewBag.Title</h2>
+<style>
+    /* Fondo para toda la página */
+    .page-background {
+        background-image: url('https://whats-up.sedus.com/wp-content/uploads/2022/06/conference-chairs.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-@using (Html.BeginForm("SendToken", "Usuario", FormMethod.Post))
-{
-    @Html.AntiForgeryToken()
+    /* Estilo para el formulario, para que se vea bien sobre el fondo */
+    .reset-password-form {
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+        padding: 30px;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+    }
 
-    <div>
-        <label for="email">Correo Electrónico</label>
-        <input type="email" id="email" name="email" required />
+    /* Estilo para los inputs y el botón */
+    .form-control {
+        margin-bottom: 15px;
+        width: 100%;
+        padding: 10px;
+        text-align: center; /* Centra el texto dentro del input */
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Estilo para las etiquetas de los campos */
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: center; /* Centra la etiqueta */
+    }
+
+    /* Asegura que el formulario se vea bien centrado */
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centra los campos */
+    }
+</style>
+
+<div class="page-background">
+    <div class="reset-password-form">
+        <h2>@ViewBag.Title</h2>
+
+        @using (Html.BeginForm("SendToken", "Usuario", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" class="form-control" required />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar Enlace para Restablecer</button>
+        }
     </div>
-
-    <button type="submit">Enviar Enlace para Restablecer</button>
-
-
-}
-
+</div>

@@ -4,42 +4,67 @@
     ViewBag.Title = "Login";
 }
 
-<h2 class="text-center">Login</h2>
-
-<div class="d-flex justify-content-center align-items-center" style="height: 30vh;">
-    @using (Html.BeginForm())
-    {
-        @Html.AntiForgeryToken()
-
-        <div class="form-group">
-
-            @Html.LabelFor(model => model.Usuario1, "Usuario")
-            @Html.TextBoxFor(model => model.Usuario1, new { @class = "form-control" })
-            @Html.ValidationMessageFor(model => model.Usuario1)
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.contrasena, "Password")
-            @Html.PasswordFor(model => model.contrasena, new { @class = "form-control" })
-            @Html.ValidationMessageFor(model => model.contrasena)
-            @if (TempData["Mensaje"] != null)
-            {
-            <div class="alert alert-success">@TempData["Mensaje"]</div>
-            }
-            @if (TempData["Error"] != null)
-            {
-            <div class="alert alert-danger">@TempData["Error"]</div>
-            }
-        </div>
-
-        <p><a href="@Url.Action("Recuperar", "Usuario")">¿Olvidaste tu contraseña?</a></p>
-
-        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-
-        <!-- Botón para redirigir al registro -->
-        <button type="button" class="btn btn-secondary" onclick="window.location.href='@Url.Action("Crear", "Usuario")'"> Regístrate</button>
-
-
+<style>
+    /* Fondo para toda la página */
+    .page-background {
+        background-image: url('https://whats-up.sedus.com/wp-content/uploads/2022/06/conference-chairs.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
+    /* Estilo para el formulario, para que se vea bien sobre el fondo */
+    .login-form {
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+        padding: 30px;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* Asegurar que los textos en el formulario sean legibles */
+    .form-control {
+        margin-bottom: 15px;
+    }
+</style>
+
+<div class="page-background">
+    <div class="login-form">
+        <h2 class="text-center">Login</h2>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Usuario1, "Usuario")
+                @Html.TextBoxFor(model => model.Usuario1, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Usuario1)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.contrasena, "Contraseña")
+                @Html.PasswordFor(model => model.contrasena, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.contrasena)
+                @if (TempData["Mensaje"] != null)
+                {
+                    <div class="alert alert-success">@TempData["Mensaje"]</div>
+                }
+                @if (TempData["Error"] != null)
+                {
+                    <div class="alert alert-danger">@TempData["Error"]</div>
+                }
+            </div>
+
+            <p><a href="@Url.Action("Recuperar", "Usuario")">¿Olvidaste tu contraseña?</a></p>
+
+            <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+
+            <!-- Botón para redirigir al registro -->
+            <button type="button" class="btn btn-secondary" onclick="window.location.href='@Url.Action("Crear", "Usuario")'"> Regístrate</button>
+        }
+    </div>
 </div>
